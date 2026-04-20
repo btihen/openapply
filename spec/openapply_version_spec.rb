@@ -8,7 +8,7 @@ RSpec.describe Openapply::Version do
       expect(Openapply::Version::VERSION).not_to be nil
     end
     it "has correct version number" do
-      expect(Openapply::Version::VERSION).to eq "1.0.3.8"
+      expect(Openapply::Version::VERSION).to eq "1.0.3.9"
     end
 
   end

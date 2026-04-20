@@ -1,5 +1,8 @@
 ### Openapply CHANGE LOG
 
+* **v1.0.3.9** - compatible with 1.0.x - 2026-04-20
+  - retrieve guardian summary data from students' `parent_guardian` key instead of the linked hash
+
 * **v1.0.3.5** - compatible with 1.0.x - 2022-08-23
   - add a debug env variable to debug queries
 
