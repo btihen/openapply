@@ -85,7 +85,7 @@ module Openapply
           answer        = oa_answer( url )
           break        if answer.nil? or answer[:students].nil? or answer[:students].empty?
           students     += answer[:students]
-          guardians    += answer[:linked][:parents]
+          guardians    += extract_parents_from_students( answer[:students] )
           last_student  = answer[:students].last
           since_id      = last_student[:id]
           page_number   = answer[:meta][:pages].to_i unless answer[:meta].nil?
@@ -111,6 +111,15 @@ module Openapply
       url_options << "count=#{count}"
 
       return "#{api_path}/students/?#{url_options.join('&')}"
+    end
+
+    def extract_parents_from_students( students )
+      parents = []
+      students.each do |student|
+        next if student[:parent_guardian].nil? or student[:parent_guardian].empty?
+        parents = student[:parent_guardian]
+      end
+      return parents
     end
 
   end

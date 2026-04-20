@@ -40,110 +40,8 @@ module SpecData
             passport_id: nil,
             profile_photo: "https://openapply-sandbox-devel-01.s3.amazonaws.com/uploads/student/avatar/000/000/095/m_2.jpg?v=1499755604",
             profile_photo_updated_at: "2017-07-11T14:46:44.000+08:00",
-            parent_ids: [
-                492,
-                493
-            ]
-        },
-        {
-            id: 106,
-            serial_number: 90,
-            custom_id: "90",
-            applicant_id: "00000090",
-            email: "Henry.Epelbaum@eduvo.com",
-            first_name: "Samuel",
-            last_name: "Epelbaum",
-            name: "Samuel Epelbaum",
-            other_name: nil,
-            preferred_name: nil,
-            birth_date: "2011-02-18",
-            gender: "male",
-            enrollment_year: 2016,
-            full_address: "2230 Balboa St., San Fransisco, CA, 94121, United States",
-            address: "2230 Balboa St.",
-            address_ii: "",
-            city: "San Fransisco",
-            state: "CA",
-            postal_code: "94121",
-            country: "United States",
-            grade: "Kindergarten",
-            campus: "Chatham Campus",
-            tags: [
-                "Embassy",
-                "EAL",
-                "Athlete",
-                "Gifted"
-            ],
-            status: "applied",
-            status_changed_at: "2016-09-16",
-            managebac_student_id: nil,
-            applied_at: "2016-09-16T08:00:00.000+08:00",
-            enrolled_at: nil,
-            inquired_at: "2016-09-12",
-            sibling_ids: [
-                236,
-                237,
-                370
-            ],
-            updated_at: "2017-07-11T14:46:44.000+08:00",
-            nationality: "American (United States)",
-            student_id: "90",
-            passport_id: nil,
-            profile_photo: "https://openapply-sandbox-devel-01.s3.amazonaws.com/uploads/student/avatar/000/000/106/f56c6c8f-ffb6-4501-8c0e-d900d0e894ae.jpg?v=1499755604",
-            profile_photo_updated_at: "2017-07-11T14:46:44.000+08:00",
-            parent_ids: [
-                265,
-                266
-            ]
-        },
-        {
-            id: 240,
-            serial_number: 95,
-            custom_id: nil,
-            applicant_id: "00000095",
-            email: "Jesse.Hawkins@eduvo.com",
-            first_name: "Jesse",
-            last_name: "Hawkins",
-            name: "Jesse Hawkins",
-            other_name: nil,
-            preferred_name: nil,
-            birth_date: "2003-02-20",
-            gender: "male",
-            enrollment_year: 2015,
-            full_address: "100 Granville Rd, Hong Kong, Hong Kong",
-            address: "100 Granville Rd",
-            address_ii: nil,
-            city: "Hong Kong",
-            state: nil,
-            postal_code: nil,
-            country: "Hong Kong",
-            grade: "Grade 7",
-            campus: "Chatham Campus",
-            tags: [
-                "Faculty Children"
-            ],
-            status: "applied",
-            status_changed_at: "2015-05-06",
-            managebac_student_id: nil,
-            applied_at: "2016-06-21T17:51:49.000+08:00",
-            enrolled_at: nil,
-            inquired_at: "2015-05-03",
-            sibling_ids: [ ],
-            updated_at: "2017-07-11T14:46:44.000+08:00",
-            nationality: "New Zealander",
-            student_id: nil,
-            passport_id: nil,
-            profile_photo: "https://openapply-sandbox-devel-01.s3.amazonaws.com/uploads/student/avatar/000/000/240/7d4ab827-8586-4ba5-af4c-926160b7a206.jpg?v=1499755604",
-            profile_photo_updated_at: "2017-07-11T14:46:44.000+08:00",
-            parent_ids: [
-                408,
-                409
-            ]
-        }
-    ],
-    linked: {
-        parents: [
-            {
+            parent_guardian: [
+                {
                 id: 492,
                 serial_number: nil,
                 custom_id: nil,
@@ -230,8 +128,61 @@ module SpecData
                     work_address_postal_code: nil,
                     parent_residency: nil
                 }
-            },
-            {
+            }
+            ],
+            parent_ids: [
+                492,
+                493
+            ]
+        },
+        {
+            id: 106,
+            serial_number: 90,
+            custom_id: "90",
+            applicant_id: "00000090",
+            email: "Henry.Epelbaum@eduvo.com",
+            first_name: "Samuel",
+            last_name: "Epelbaum",
+            name: "Samuel Epelbaum",
+            other_name: nil,
+            preferred_name: nil,
+            birth_date: "2011-02-18",
+            gender: "male",
+            enrollment_year: 2016,
+            full_address: "2230 Balboa St., San Fransisco, CA, 94121, United States",
+            address: "2230 Balboa St.",
+            address_ii: "",
+            city: "San Fransisco",
+            state: "CA",
+            postal_code: "94121",
+            country: "United States",
+            grade: "Kindergarten",
+            campus: "Chatham Campus",
+            tags: [
+                "Embassy",
+                "EAL",
+                "Athlete",
+                "Gifted"
+            ],
+            status: "applied",
+            status_changed_at: "2016-09-16",
+            managebac_student_id: nil,
+            applied_at: "2016-09-16T08:00:00.000+08:00",
+            enrolled_at: nil,
+            inquired_at: "2016-09-12",
+            sibling_ids: [
+                236,
+                237,
+                370
+            ],
+            updated_at: "2017-07-11T14:46:44.000+08:00",
+            nationality: "American (United States)",
+            student_id: "90",
+            passport_id: nil,
+            profile_photo: "https://openapply-sandbox-devel-01.s3.amazonaws.com/uploads/student/avatar/000/000/106/f56c6c8f-ffb6-4501-8c0e-d900d0e894ae.jpg?v=1499755604",
+            profile_photo_updated_at: "2017-07-11T14:46:44.000+08:00",
+            parent_guardian: [
+                {
                 id: 265,
                 serial_number: 254,
                 custom_id: "254",
@@ -318,8 +269,54 @@ module SpecData
                     work_address_postal_code: nil,
                     parent_residency: "Citizen"
                 }
-            },
-            {
+            }
+            ],
+            parent_ids: [
+                265,
+                266
+            ]
+        },
+        {
+            id: 240,
+            serial_number: 95,
+            custom_id: nil,
+            applicant_id: "00000095",
+            email: "Jesse.Hawkins@eduvo.com",
+            first_name: "Jesse",
+            last_name: "Hawkins",
+            name: "Jesse Hawkins",
+            other_name: nil,
+            preferred_name: nil,
+            birth_date: "2003-02-20",
+            gender: "male",
+            enrollment_year: 2015,
+            full_address: "100 Granville Rd, Hong Kong, Hong Kong",
+            address: "100 Granville Rd",
+            address_ii: nil,
+            city: "Hong Kong",
+            state: nil,
+            postal_code: nil,
+            country: "Hong Kong",
+            grade: "Grade 7",
+            campus: "Chatham Campus",
+            tags: [
+                "Faculty Children"
+            ],
+            status: "applied",
+            status_changed_at: "2015-05-06",
+            managebac_student_id: nil,
+            applied_at: "2016-06-21T17:51:49.000+08:00",
+            enrolled_at: nil,
+            inquired_at: "2015-05-03",
+            sibling_ids: [ ],
+            updated_at: "2017-07-11T14:46:44.000+08:00",
+            nationality: "New Zealander",
+            student_id: nil,
+            passport_id: nil,
+            profile_photo: "https://openapply-sandbox-devel-01.s3.amazonaws.com/uploads/student/avatar/000/000/240/7d4ab827-8586-4ba5-af4c-926160b7a206.jpg?v=1499755604",
+            profile_photo_updated_at: "2017-07-11T14:46:44.000+08:00",
+            parent_guardian: [
+                {
                 id: 408,
                 serial_number: nil,
                 custom_id: nil,
@@ -362,53 +359,13 @@ module SpecData
                     work_address_postal_code: nil,
                     parent_residency: nil
                 }
-            },
-            {
-                id: 409,
-                serial_number: nil,
-                custom_id: nil,
-                name: "Jeramy Hawkins",
-                first_name: "Jeramy",
-                last_name: "Hawkins",
-                gender: "male",
-                address: "100 Granville Rd",
-                address_ii: nil,
-                city: "Hong Kong",
-                state: nil,
-                postal_code: nil,
-                country: "Hong Kong",
-                email: "jeramyh@eduvo.com",
-                parent_role: "Father",
-                updated_at: "2017-07-11T14:46:48.000+08:00",
-                managebac_parent_id: nil,
-                profile_photo: "https://openapply-sandbox-devel-01.s3.amazonaws.com/uploads/parent/avatar/000/000/409/6f8dce70-2e9f-4ee0-bc79-0288c3097d9f.jpg?v=1499755608",
-                profile_photo_updated_at: "2017-07-11T14:46:48.000+08:00",
-                parent_id: nil,
-                custom_fields: {
-                    title: nil,
-                    treat_parent_as_emergency_contact: "Yes",
-                    mobile_phone: "852 6565 1191",
-                    home_telephone: "852 4545 1191",
-                    nationality: "New Zealander",
-                    passport_id: "2153003",
-                    passport_expiration: "2019-06-19",
-                    residency_status: "Citizen",
-                    language: "English",
-                    employer_company: "McDowell's",
-                    title_position: "Data Analyst",
-                    work_email: "jeramyh@eduvo.com",
-                    work_phone: "852 2323 1175",
-                    work_address_street_address_1: nil,
-                    work_address_street_address_2: nil,
-                    work_address_city: nil,
-                    work_address_state: nil,
-                    work_address_country: nil,
-                    work_address_postal_code: nil,
-                    parent_residency: nil
-                }
-            }
-        ]
-    },
+            }],
+            parent_ids: [
+                408,
+                409
+            ]
+        }
+    ],
     meta: {
         pages: 3,
         per_page: "3"
