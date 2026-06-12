@@ -1,5 +1,10 @@
 ### Openapply CHANGE LOG
 
+* **v1.0.3.4** - compatible with 1.0.x - 2026-06-12
+  - Make code Ruby 4.x compatible
+  - Update gems with high security vulnerabilities
+  - Replace abanded Codacy-Coverage with Simplecov (Codacy-Coverage is not Ruby 4.0 compatible)
+
 * **v1.0.3.9** - compatible with 1.0.x - 2026-04-20
   - retrieve guardian summary data from students' `parent_guardian` key instead of the linked hash
 
